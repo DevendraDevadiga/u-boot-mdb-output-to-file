@@ -26,6 +26,8 @@ logfile = open(sys.argv[1], 'r')
 
 if n >= 3:
     outputfile = open(sys.argv[2], 'wb')
+else:
+    outputfile = open("outputfile", 'wb')
 
 logfile = open(sys.argv[1], 'r')
 Lines = logfile.readlines()
