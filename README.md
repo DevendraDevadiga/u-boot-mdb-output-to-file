@@ -1,4 +1,4 @@
-# Convert U-Boot mdb command output as a TEXT/ASCII file
+# Convert U-Boot "md.b" command output as a TEXT/ASCII file
 
 Try to load any text file from filesystem to memory
 
